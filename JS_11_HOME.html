@@ -1,0 +1,48 @@
+<!-- Урок 3. Основы JavaScript
+
+    Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.
+(Пояснение: то есть нужно создать для вывода функцию через function youFuncName() {...})
+формат сдачи - ссылка на гитхаб -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let name = prompt("Как Вас зовут?", "Имя")
+
+        function youFuncName() {
+            alert(`${name}???
+Ниче так имечко! Нормально!`);
+        }
+        youFuncName()
+    </script>
+
+    <script>
+
+        let result = confirm('Задумывался над тем, чтобы сменить имя?')
+        if (result) {
+            alert('100 раз отмерь, 1 раз отрежь');
+        }
+        else {
+            alert('Ну как знаешь...');
+        }
+
+
+
+    </script>
+
+    <p>;)</p>
+
+</body>
+
+</html>
